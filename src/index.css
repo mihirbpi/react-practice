@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  align-content: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +9,81 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.welcome {
+  text-align: left;
+  padding: 10px;
+  max-width: 1000px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navbar {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration:double;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #05603c;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.resume-header {
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume-content {
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  left: 200px;
+  text-align: left;
+}
+
+.resume-coursework {
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  left: 200px;
+  text-align: left;
+}
+
+.resume a {
+  text-decoration:double;
+}
+
+.resume a:hover {
+  color: #05603c;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.experience {
+  padding-bottom: 10px;
+}
+
+.experience button {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration:double;
+  border: 1px solid #f2f2f2;
+}
+
+.experience button:hover{
+  color: #05603c;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
