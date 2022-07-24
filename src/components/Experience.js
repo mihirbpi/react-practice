@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Experience  = ({name, date, content}) => { 
+const Experience  = ({name, date, skills, contents}) => { 
 
     const [toshow, setToShow] = useState(false);
     const [buttonname, setButtonName] = useState("More Info");
@@ -16,12 +16,18 @@ const Experience  = ({name, date, content}) => {
 
     return (
         <div className="experience">
-            <div>
-            <p><h4>{name}</h4>({date})</p>
-            <button onClick={handleClick}>{buttonname}</button>
+            <h4>{name}</h4>
+            <div className="exp-head">
+            ({date})
+            </div>
+            <div className="exp-head">
+            <u>Skills Used:</u> {skills}
             </div>
             <div>
-            {toshow && <p> {content} </p>}   
+            <p><button onClick={handleClick}>{buttonname}</button></p>
+            </div>
+            <div>
+            {toshow && <p> {contents.map(entry => (<div><p>{entry}</p></div>))} </p>}   
             </div>
         </div>
     );
