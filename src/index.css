@@ -46,12 +46,23 @@ code {
   text-align: center;
 }
 
-.resume-content {
+.resume-projects {
   align-items: center;
   position: relative;
   padding-left: 10px;
   padding-bottom: 10px;
   left: 200px;
+  width: 75%;
+  text-align: left;
+}
+
+.resume-experience {
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  left: 200px;
+  width: 75%;
   text-align: left;
 }
 
@@ -60,6 +71,17 @@ code {
   position: relative;
   padding-left: 10px;
   padding-bottom: 10px;
+  width: 75%;
+  left: 200px;
+  text-align: left;
+}
+
+.resume-awards {
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 75%;
   left: 200px;
   text-align: left;
 }

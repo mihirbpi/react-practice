@@ -19,10 +19,35 @@ const Resume  = () => {
             <p><b>Tools/Technologies: </b>
             Git, Linux/Unix, NumPy, Jupyter, Arduino, p5.js, Microsoft Office</p>
         </div>
-        <div className="resume-content">
+        <div className="resume-projects">
+        <h3><b>Projects: </b></h3>
+        
+        <Experience name="Caltech CS 156b Chest Xray Machine Learning Model"
+        date="Apr 2022-Jun 2022"
+        content={<div>
+        <p>Developed and trained a neural network architecture in Python to predict 14 diseases from chest Xray images for class competition on EvalAI (Placed 4th out of 17 teams)</p>
+        <p>Researched and implemented pretrained network architectures such as Densenets/Resnets and data labeling methods with Pytorch</p></div>}/>
+
+        <Experience name="Caltech CS 24 Computer Systems Projects" date="Oct 2021-Dec 2021" 
+        content={<div>
+        <p>Projects in C: Implemented code-generation for BASIC to Assembly compiler; designed a memory allocator from scratch; wrote buffer overflow and shellcode hacking exploits; implemented multithreaded password cracker </p>
+        </div>}/>
+
+        <Experience name="Gunn High School Colleges Map" date="Jun 2019" 
+        content={<div>
+        <p>Created a webpage that read data from a spreadsheet with the colleges my high school graduating class committed to and displayed them with markers on a map using JavaScript, Google Maps API, and Google Sheets API</p>
+        </div>}/> 
+
+        <Experience name="JavaScript p5.js Simulations" date="2019-Present" 
+        content={<div>
+        <p>Created single webpages with math and physics simulations/animations using the p5.js library (see Github) </p>
+        </div>}/>
+        </div>
+
+        <div className="resume-experience">
         <h3><b>Experience: </b></h3>
 
-        <Experience name="Summer Research Intern at Gladstone Insitutes" date="Jun 2022-Present" 
+        <Experience name="Summer Research Intern at the Engelhardt Lab at the Gladstone Insitutes" date="Jun 2022-Present" 
         content={<div>
         <p>Project to analyze videos of CAR T cells attacking cancer cells to help develop better cancer therapies</p>
         <p>Currently researching cell-movement simulation techniques and using Python to simulate cell movement</p></div>}/>
@@ -55,6 +80,12 @@ const Resume  = () => {
         <div className="resume-coursework">
             <p><h3>Relevant Coursework: </h3></p>
             <p>Computational Biology &amp; Bioinformatics; Machine Learning; Computer Systems; Algorithms; Theory of Computation;  Discrete Mathematics;  Datastructures/Algorithms; Functional Programming; Neuroscience; Developmental Biology; Genetics; Cell Biology; Molecular Biology; Applied Mathematics; Probability Models; Differential Equations; Proof-based Calculus and Linear Algebra; MATLAB and Mathematica</p>
+        </div>
+
+        <div className="resume-awards">
+            <p><h3>Test Scores/Awards: </h3></p>
+            <p><b>SAT</b> - 1560/1600; <b>PSAT</b> - 1500/1520; <b>SAT Math Level II</b> - 800/800; <b>SAT Chemistry</b> - 800/800; <b>AP</b>  - 5/5 on Computer Science A, Chemistry, Physics 1, Physics C, Calculus BC, and Statistics Exams
+</p>
         </div>
     </div>
     );
