@@ -24,9 +24,14 @@ code {
   padding: 10px;
   display: flex;
   align-items: center;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+}
+
+.info {
+  margin-left: 30px;
+  font-size: smaller;
 }
 
 .navbar a {

@@ -1,6 +1,7 @@
 const Welcome  = () => {
         return (
         <div className="welcome">
+            <h3>About Me: </h3>
             <p>
              I am a prospective computer science major/biology minor at Caltech with skills in software engineering and a love of problem-solving. I love solving problems in general, especially those that are helpful to society, as well as learning new subjects or skills. I strive for deep understanding of the subjects I am passionate about.
              </p>
