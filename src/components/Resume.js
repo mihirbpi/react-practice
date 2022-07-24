@@ -17,7 +17,7 @@ const Resume  = () => {
             Python, C, Java, JavaScript, MATLAB, Mathematica, HTML</p>
 
             <p><b>Tools/Technologies: </b>
-            Git, Linux/Unix, NumPy, Jupyter, Arduino, p5.js, Microsoft Office</p>
+            NumPy, Jupyter, p5.js, Arduino, Git, Linux/Unix, Microsoft Office</p>
         </div>
         <div className="resume-projects">
         <h3><b>Projects: </b></h3>
