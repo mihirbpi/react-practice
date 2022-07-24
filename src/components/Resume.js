@@ -21,7 +21,6 @@ const Resume  = () => {
         </div>
         <div className="resume-projects">
         <h3>Projects: </h3>
-
         <Experience name="Caltech CS 156b Chest Xray Machine Learning Model"
         date="Apr 2022-Jun 2022" skills="Python, NumPy, Linux/Unix, Git"
         contents={

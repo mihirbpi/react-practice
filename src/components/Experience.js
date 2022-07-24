@@ -16,10 +16,7 @@ const Experience  = ({name, date, skills, contents}) => {
 
     return (
         <div className="experience">
-            <h4>{name}</h4>
-            <div className="exp-head">
-            ({date})
-            </div>
+            <h4>{name} <span>({date})</span></h4>
             <div className="exp-head">
             <u>Skills Used:</u> {skills}
             </div>

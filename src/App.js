@@ -1,7 +1,7 @@
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
 import Resume from './components/Resume';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
         <Navbar/>
           <div className="content">
             <Routes>
-              <Route path="/react-website/" element={<Welcome/>} />
-              <Route path="/react-website/resume" element={<Resume/>} />
+              <Route path="/" element={<Welcome/>} />
+              <Route path="/resume" element={<Resume/>} />
             </Routes>
           </div>
         </div>

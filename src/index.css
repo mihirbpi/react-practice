@@ -104,6 +104,19 @@ code {
   padding-bottom: 5px;
 }
 
+.exp-head{
+  padding-top: 0px;
+  width: 100%;
+}
+
+span{
+  font-weight: normal;
+}
+
+.experience h4 {
+  padding-bottom: 0px;
+}
+
 .experience button {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-decoration:double;
