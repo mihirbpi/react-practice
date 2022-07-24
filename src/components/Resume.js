@@ -9,7 +9,7 @@ const Resume  = () => {
             California Institute of Technology / BS Computer Science (minor Biology) / June 2023 </p>
 
             <p> <b>Email/Phone/LinkedIn/Github: </b> 
-            <a href="mihir.borkar@gmail.com" target="_blank">mihir.borkar@gmail.com</a> /  
+            <a href="mailto:mihir.borkar@gmail.com" target="_blank">mihir.borkar@gmail.com</a> /  
             <a href="https://www.linkedin.com/in/mihir-borkar-a2628668/" target="_blank"> LinkedIn</a> /  
             <a href="https://github.com/mihirbpi" target="_blank"> Github</a></p>
 
@@ -94,7 +94,12 @@ const Resume  = () => {
 
         <div className="resume-awards">
             <h3><p>Test Scores/Awards: </p></h3>
+
             <p><b>SAT</b> - 1560/1600; <b>PSAT</b> - 1500/1520; <b>SAT Math Level II</b> - 800/800; <b>SAT Chemistry</b> - 800/800; <b>AP</b>  - 5/5 on Computer Science A, Chemistry, Physics 1, Physics C, Calculus BC, and Statistics Exams</p>
+
+            <p><b>PSAT National Merit Finalist</b></p>
+
+            <p><b>Achievement Roll for AMC 12 Math Competition</b> (90th percentile, score of 97.5 in grade 9)</p>
         </div>
     </div>
     );
