@@ -22,7 +22,7 @@ const Resume  = () => {
         
         <div className="resume-coursework">
             <h3><p>Relevant Coursework: </p></h3>
-            <p>Computational Biology &amp; Bioinformatics; Machine Learning; Computer Systems; Algorithms; Theory of Computation;  Discrete Mathematics;  Datastructures/Algorithms; Functional Programming; Neuroscience; Developmental Biology; Genetics; Cell Biology; Molecular Biology; Applied Mathematics; Probability Models; Differential Equations; Proof-based Calculus and Linear Algebra; MATLAB and Mathematica</p>
+            <p>Computational Biology &amp; Bioinformatics; Machine Learning; Relational Databases; Algorithms; Datastructures;  Computer Systems; Functional Programming; Theory of Computation; Discrete Mathematics; Genetics; Immunology; Cell Biology; Molecular Biology; Neuroscience; Developmental Biology; Applied Mathematics; Applied Linear Algebra; Information Theory; Probability Models; Differential Equations; Proof-based Calculus and Linear Algebra; MATLAB and Mathematica</p>
         </div>
 
         <div className="resume-experience">
