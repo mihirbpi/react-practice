@@ -14,46 +14,21 @@ const Resume  = () => {
             <a href="https://github.com/mihirbpi" target="_blank"> Github</a></p>
 
             <p><b>Programming Languages: </b>
-            Python, C, Java, JavaScript, MATLAB, Mathematica, HTML</p>
+            Python, C, Java, JavaScript, SQL, MATLAB, Mathematica, HTML</p>
 
             <p><b>Tools/Technologies: </b>
             NumPy, Jupyter, p5.js, Arduino, Git, Linux/Unix, Microsoft Office</p>
         </div>
-        <div className="resume-projects">
-        <h3>Projects: </h3>
-        <Experience name="Caltech CS 156b Chest Xray Machine Learning Model"
-        date="Apr 2022-Jun 2022" skills="Python, NumPy, Linux/Unix, Git"
-        contents={
-            ["Developed and trained a neural network architecture in Python to predict 14 diseases from chest Xray images for class competition on EvalAI (Placed 4th out of 17 teams)",
-            "Researched and implemented pretrained network architectures such as Densenets/Resnets and data labeling methods with Pytorch"]
-          }
-        />
-
-        <Experience name="Caltech CS 24 Computer Systems Projects" date="Oct 2021-Dec 2021" skills="C"
-        contents={
-            ["Projects in C: Implemented code-generation for BASIC to Assembly compiler; designed a memory allocator from scratch; wrote buffer overflow and shellcode hacking exploits; implemented multithreaded password cracker"]
-          }
-        />
-
-        <Experience name="Gunn High School Colleges Map" date="Jun 2019" 
-        skills="JavaScript, HTML"
-        contents={
-            ["Created a webpage that read data from a spreadsheet with the colleges my high school graduating class committed to and displayed them with markers on a map using JavaScript, Google Maps API, and Google Sheets API"]
-          }
-        /> 
-
-        <Experience name="JavaScript p5.js Simulations" date="2019-Present" 
-        skills="JavaScript, HTML"
-        contents={
-            ["Created single webpages with math and physics simulations/animations using the p5.js library (see Github)"]
-          } 
-        />
+        
+        <div className="resume-coursework">
+            <h3><p>Relevant Coursework: </p></h3>
+            <p>Computational Biology &amp; Bioinformatics; Machine Learning; Computer Systems; Algorithms; Theory of Computation;  Discrete Mathematics;  Datastructures/Algorithms; Functional Programming; Neuroscience; Developmental Biology; Genetics; Cell Biology; Molecular Biology; Applied Mathematics; Probability Models; Differential Equations; Proof-based Calculus and Linear Algebra; MATLAB and Mathematica</p>
         </div>
 
         <div className="resume-experience">
         <h3><b>Experience: </b></h3>
 
-        <Experience name="Summer Research Intern at the Engelhardt Lab at the Gladstone Insitutes" date="Jun 2022-Present" skills="Python, NumPy, Git, Linux/Unix"
+        <Experience name="Summer Research Intern at the Engelhardt Lab at the Gladstone Insitutes" date="Jun 2022-Sept 2022" skills="Python, NumPy, Git, Linux/Unix"
         contents={
             ["Project to analyze videos of CAR T cells attacking cancer cells to help develop better cancer therapies",
             "Currently researching cell-movement simulation techniques and using Python to simulate cell movement"]
@@ -87,9 +62,35 @@ const Resume  = () => {
         />
 
         </div>
-        <div className="resume-coursework">
-            <h3><p>Relevant Coursework: </p></h3>
-            <p>Computational Biology &amp; Bioinformatics; Machine Learning; Computer Systems; Algorithms; Theory of Computation;  Discrete Mathematics;  Datastructures/Algorithms; Functional Programming; Neuroscience; Developmental Biology; Genetics; Cell Biology; Molecular Biology; Applied Mathematics; Probability Models; Differential Equations; Proof-based Calculus and Linear Algebra; MATLAB and Mathematica</p>
+        <div className="resume-projects">
+        <h3>Projects: </h3>
+        <Experience name="Caltech CS 156b Chest Xray Machine Learning Model"
+        date="Apr 2022-Jun 2022" skills="Python, NumPy, Linux/Unix, Git"
+        contents={
+            ["Developed and trained a neural network architecture in Python to predict 14 diseases from chest Xray images for class competition on EvalAI (Placed 4th out of 17 teams)",
+            "Researched and implemented pretrained network architectures such as Densenets/Resnets and data labeling methods with Pytorch"]
+          }
+        />
+
+        <Experience name="Caltech CS 24 Computer Systems Projects" date="Oct 2021-Dec 2021" skills="C"
+        contents={
+            ["Projects in C: Implemented code-generation for BASIC to Assembly compiler; designed a memory allocator from scratch; wrote buffer overflow and shellcode hacking exploits; implemented multithreaded password cracker"]
+          }
+        />
+
+        <Experience name="Gunn High School Colleges Map" date="Jun 2019" 
+        skills="JavaScript, HTML"
+        contents={
+            ["Created a webpage that read data from a spreadsheet with the colleges my high school graduating class committed to and displayed them with markers on a map using JavaScript, Google Maps API, and Google Sheets API"]
+          }
+        /> 
+
+        <Experience name="JavaScript p5.js Simulations" date="2019-Present" 
+        skills="JavaScript, HTML"
+        contents={
+            ["Created single webpages with math and physics simulations/animations using the p5.js library (see Github)"]
+          } 
+        />
         </div>
 
         <div className="resume-awards">
