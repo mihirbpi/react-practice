@@ -1,6 +1,6 @@
 const Birthday  = () => {
     return (
-    <div className="welcome">
+    <div className="birthday">
         <h3>About Me: </h3>
         <p>
         I am a prospective computer science major/biology minor at Caltech with software development and research experience. I enjoy learning new subjects or skills and strive for a deep understanding of the areas I am passionate about.
@@ -12,4 +12,4 @@ const Birthday  = () => {
     );
 }
 
-export default Welcome;
+export default Birthday;
