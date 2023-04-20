@@ -3,9 +3,9 @@ const Birthday  = () => {
     return (
     <div className="birthday">
         <h2>Happy Birthday Baba! </h2>
-
+        <p><Latex>$53$ is a very special number</Latex></p>
         <p>
-        <Latex>$53$ is the $16$th prime number. It is a balanced prime (average of the previous prime ($47$) and the next prime ($59$)) and a Sophie Germain prime ($2 \times 53 + 1 = 101$ is also a prime). </Latex>
+        <Latex>It is the $16$th prime number. It is a balanced prime (average of the previous prime ($47$) and the next prime ($59$)) and a Sophie Germain prime ($2 \times 53 + 1 = 101$ is also a prime). </Latex>
         </p>
         
     <p><Latex> The sum of the first $53$ primes is $5830$, which is divisible by $53$, a property shared by only a few other numbers.</Latex>
