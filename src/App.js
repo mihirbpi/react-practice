@@ -12,6 +12,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Welcome/>} />
               <Route path="/resume" element={<Resume/>} />
+              <Route path="/birthday" element={<Birthday/>} />
             </Routes>
           </div>
         </div>
