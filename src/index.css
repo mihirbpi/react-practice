@@ -19,6 +19,14 @@ code {
   margin: 0 auto;
 }
 
+.birthday {
+  text-align: left;
+  padding: 10px;
+  max-width: 1000px;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .navbar {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
