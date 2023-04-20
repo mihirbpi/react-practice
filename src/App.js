@@ -1,6 +1,7 @@
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
 import Resume from './components/Resume';
+import Birthday from './components/Birthday';
 import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
