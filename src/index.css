@@ -79,6 +79,16 @@ code {
   text-align: left;
 }
 
+.resume-education {
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 75%;
+  left: 200px;
+  text-align: left;
+}
+
 .resume-coursework {
   align-items: center;
   position: relative;

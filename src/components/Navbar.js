@@ -9,7 +9,7 @@ const Navbar  = () => {
             <Link to="/resume">Resume</Link>
         </div>
         <div className="info">Created with React</div>
-        <div className="info">Last Updated April 2023</div>
+        <div className="info">Last Updated April 2024</div>
       </nav>
     );
 }

@@ -2,11 +2,10 @@ const Welcome  = () => {
         return (
         <div className="welcome">
             <h3>About Me: </h3>
+            <p>I am an incoming PhD student in the Department of Biomedical Data Science at the Stanford University School of Medicine. I graduated from Caltech with a BS in Computer Science and a minor in Biology in June 2023.
+            </p> 
             <p>
-            I am a prospective computer science major/biology minor at Caltech with software development and research experience. I enjoy learning new subjects or skills and strive for a deep understanding of the areas I am passionate about.
-             </p>
-             <p>
-             I am currently looking for jobs after I graduate in June 2023, where I can apply my knowledge of software development, algorithms, computer systems, machine learning, and/or computational biology to research solutions and/or build products that improve people’s lives. 
+            I have software development and computational biology research experience. At Caltech, I have taken courses in software development, machine learning, applied mathematics, statistics, and biology.
             </p>
         </div>
         );
